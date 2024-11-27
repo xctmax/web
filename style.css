@@ -1,0 +1,161 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+}
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid rgb(128, 129, 129);
+}
+.head_line {
+    display: block;
+    margin: auto;
+    padding: 20px 10px;
+    background-color: lightblue;
+    font-weight: bold;
+    text-align: center;
+    font-size:24px;
+    text-transform: uppercase;
+    color: darkgreen;
+    text-decoration: none;
+}
+p.total { 
+    text-align: left;
+    font-style: italic;
+    margin:10px;    
+}
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align:left;
+}
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;    
+}
+th {
+    background-color: #d3f4e3;
+    font-weight: bold;
+    text-align: center;
+}
+img {
+    width: 120px;
+    height: 160px;
+    object-fit: cover;
+}
+
+td.right {
+    text-align: right;
+}
+td.center {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+.edit, .delete {
+    width: 100%;
+    text-align:center;
+}
+.edit a{
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: black;
+    background-color: lightblue;
+    border-radius: 5px;
+    border: 1px solid #ddd; 
+}
+.delete a {
+    margin-top: 10px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #f5f0f0;
+    background-color: #800000;    
+    border-radius: 5px;
+    border: 1px solid #ddd; 
+}
+.pagination {
+    text-align: center;
+    margin-top: 20px;
+}
+.pagination a {
+    margin: 0 5px;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #006400;
+    background-color: #ebf0d9;
+    border-radius: 5px;
+}
+.pagination a.active {
+    font-weight: bold;
+    background-color: #166105b8;
+    color: white;
+}
+.bottom {
+    display: block;
+    margin: auto;
+    padding: 20px 0px;
+    background-color: lightblue;
+    font-weight: bold;
+    color: darkgreen;
+    text-decoration: none;
+    height: auto;   
+}
+.bottom a {
+    margin: auto;
+    padding: 8px 12px;
+    text-decoration: none;
+    color: #006400;
+    background-color: #ebf0d9;
+    border-radius: 5px;
+    border: 1px solid #ddd; 
+}
+
+
+.form { 
+    width: 50%; 
+    margin: auto; 
+    padding: 20px 30px 20px 30px; 
+    border: 1px solid lightblue;
+    text-align: center;
+}  
+textarea, input, select {
+    width: 60%; 
+    box-sizing: border-box; 
+    margin-left: 10px;
+    vertical-align: top; 
+    height: 30px;
+}
+textarea {
+    height: auto;
+    resize: none;
+    height: 3em;
+    line-height: 1.5em;
+    width: 60%;
+    box-sizing: border-box;
+    margin-left: 10px;
+    vertical-align: top; 
+}
+
+label {
+    display: inline-block;
+    width: 150px;
+    text-align: left;
+    vertical-align: top;
+    margin-bottom: 10px;
+}
+
+button {    
+    padding: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+    background: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+}
